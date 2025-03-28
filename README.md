@@ -29,5 +29,16 @@ This repository contains the source code for a **Clothing Store Website**, a mod
   - **PostgreSQL**
   - **MySQL**
 
-## Project Structure
-my-react-app/ ├── public/ # Static assets ├── src/ # Source code │ ├── components/ # Reusable React components │ ├── assets/ # Images and other assets │ ├── App.jsx # Main application file │ ├── index.css # Global styles │ └── main.jsx # Entry point ├── .gitignore # Ignored files for Git ├── package.json # Project dependencies and scripts ├── vite.config.js # Vite configuration └── README.md # Project documentation
+## Project Structure **TBD**
+my-react-app/
+├── public/ # Static assets
+├── src/ # Source code 
+│ ├── components/ # Reusable React components 
+│ ├── assets/ # Images and other assets 
+│ ├── App.jsx # Main application file 
+│ ├── index.css # Global styles 
+│ └── main.jsx # Entry point 
+├── .gitignore # Ignored files for Git
+├── package.json # Project dependencies and scripts 
+├── vite.config.js # Vite configuration 
+└── README.md # Project documentation
