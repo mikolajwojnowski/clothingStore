@@ -1,0 +1,63 @@
+
+/* Styling card component */
+.card{
+  border: 1px solid rgba(125, 120, 120, 0.619);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  padding: 30px;
+  margin: 20px 0px 20px 20px; 
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+
+
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 5px rgba(191, 12, 12, 0.9);
+  transition: transform 0.9s ease, box-shadow 0.5s ease;
+}
+
+.card .card-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 20%;
+
+  
+}
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card-p{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 40%)
+}
+
+/* Button styling */
+/* We did it inline in Button.jsx */
+
+/* Styling header component */
+.header{
+  border: 2px solid blue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  padding: 30px;
+  margin: 30px 30px 30px 30px; 
+  /*top right bottom left */
+  
+
+}
+
+/* Styling footer component -fix so footer floats at the end of page */
+.footer{
+  border-top: 10px solid black;
+  padding: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+  right: 30px;
+  background-color: white;
+}
